@@ -25,8 +25,6 @@ public class Main {
         total += kg*eggplant;
 
         System.out.println("Total cost: " + total);
-
-// bunların isimlerine zaten fiyat atadık, ya her birinin kilosu için ayrı bir var oluşturcan ya da tek bir
-        //kg oluşturup her seferinde tutarı hesaplayıp toplama ekleyerek gidicez
+        
     }
 }
