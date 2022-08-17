@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        int firstNum, secondNum, operation, result;
+        int firstNum, secondNum, operation;
 
         Scanner s = new Scanner(System.in);
 
