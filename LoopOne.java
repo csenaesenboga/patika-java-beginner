@@ -1,5 +1,5 @@
 //Takes a number from user and prints the even numbers until the input number
-//Also prints the average of multiples of 3 or 4 until the input number
+//Also prints the average of multiples of 3 and 4 until the input number
 import java.util.Scanner;
 
 public class LoopOne {
@@ -16,7 +16,7 @@ public class LoopOne {
 
             if (i%2 == 0) System.out.print(i + " ");
 
-            if (i % 3 == 0 || i % 4 == 0) {
+            if (i % 3 == 0 && i % 4 == 0) {
                 if(i != 0) {
                     sum += i;
                     count += 1;
